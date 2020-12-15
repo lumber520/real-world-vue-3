@@ -1,18 +1,18 @@
 <template>
   <div class="events">
-    <EventCrad v-for="event in events" :key="event.id" :event="event" />
+    <EventCard v-for="event in events" :key="event.id" :event="event" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import EventCrad from "@/components/EventCard.vue";
+import EventCard from "../components/EventCard.vue";
 import EventService from "../services/EventService.js";
 
 export default {
   name: "EventList",
   components: {
-    EventCrad
+    EventCard
   },
   data() {
     return {
