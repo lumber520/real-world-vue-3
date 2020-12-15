@@ -29,6 +29,16 @@
       "date": "July 22, 2022",
       "time": "11:00",
       "organizer": "Carey Wales"
+    },
+    {
+      "id": 6547,
+      "category": "sustainability",
+      "title": "Forest Cleanup",
+      "description": "Help pick up trash in the Forest.",
+      "location": "Playa Del Carmen",
+      "date": "June 12, 2024",
+      "time": "10:00",
+      "organizer": "Carey Wales"
     }
   ]
 }
