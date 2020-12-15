@@ -9,7 +9,7 @@
 import EventCrad from "@/components/EventCard.vue";
 
 export default {
-  name: "Home",
+  name: "EventList",
   components: {
     EventCrad
   },
